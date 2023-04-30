@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.banner-section-bg-container {
+    background: linear-gradient(to right, hwb(39 53% 6%), #a8e5f7);
+    height: 90vh;
+    background-size: cover;
+}
+
+.banner-section-heading {
+    color: yellow;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.banner-section-heading a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid red;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.banner-section-description {
+    color: green;
+    font-family: "Caveat";
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.banner-section-image {
+    margin-top: 30px;
+    border-radius: 15px;
+    border-width: 15px;
+    border-color: #2d3a8c;
+    height: 90%;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navitem {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.navbar {
+    background: linear-gradient(to right, #750dde, #f59a9f);
+    padding: 10px;
+    color: #ffffff;
+}
+
+.fixed-top .navbar-nav li a {
+    color: rgb(103, 32, 3) !important;
+    transition: .5s ease-in-out;
+    font-size: 19px;
+
+}
+
+.fixed-top .navbar-nav li a:hover {
+    color: white !important;
+
+}
+
+.search-button {
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    color: white;
+}
+
+.content a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid red;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.about-me-section {
+    background-color: #8c9ff5;
+    background-size: cover;
+}
+
+
+.about-me-section-heading {
+    color: #ffffff;
+    font-family: "Elegant";
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.about-me-section-description {
+    color: #ffffff;
+    font-family: "kenflog";
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.about-me-section-image {
+    width: 50%;
+}
+
+.skills-section {
+    background-size: cover;
+    background-color: #6db865;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.skills-card-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 60px auto;
+
+
+}
+
+.types-section {
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.skills-section-sub-heading {
+    color: #ffffff;
+    font-family: "robotosans-serif    ";
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.types-section-sub-heading {
+    color: #f11818;
+    font-family: "robotosans-serif    ";
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.skills-card {
+    width: 100%;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, green, yellow);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.skills-card-image {
+    width: 100%;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.skills-card-image:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+.skills-card-title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.portfolio-logo {
+
+    font-size: 24px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 0px;
+    color: #690cb0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'palatino';
+}
+
+.banner-section-bg-container {
+    height: 90vh;
+    background-size: cover;
+}
+
+.banner-section-heading {
+    color: #081375;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.banner-section-description {
+    color: green;
+    font-family: "Caveat";
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.banner-section-image {
+    margin-top: 30px;
+    border-radius: 15px;
+    border-width: 15px;
+    border-color: #2d3a8c;
+    height: 90%;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+
+.about-img {
+    height: 20vh;
+    border-radius: 30px;
+}
+
+
+.footer-section {
+    background-size: cover;
+    background-color: #042940;
+    ;
+}
+
+.footer-section-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+
+
+
+.footer-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-section-text {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+
+
+.para1 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.Nav-image {
+    height: 50px;
+    border-radius: 90px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.container-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+
+
+.card {
+    background: linear-gradient(to right, #1306a1, #8295f5);
+    margin: 20px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    width: 20%;
+    transition: 0.5s;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 0px;
+    height: fit-content;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 40%;
+    }
+}
+
+
+.container-section .card img {
+    width: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    height: auto;
+}
+
+.container-section .card h1 {
+    margin: 15px 0px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+
+
+}
+
+.container-section .card p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    color: #faf7e8;
+
+}
+
+.button {
+    padding: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #750813;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: white;
+    width: auto;
+
+}
+
+.footer-section {
+    background-size: cover;
+    background-color: #042940;
+    ;
+}
+
+.footer-section-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+
+
+
+.footer-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-section-text {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+
+.horizontal-line {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.icon {
+    color: #ffffff;
+
+}
+
+.para1 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.Nav-image {
+    height: 50px;
+    border-radius: 90px;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input {
+    padding: 2px;
+    margin: 15px;
+    width: 80%;
+}
+
+#msg {
+    width: 50%;
+    padding: 10px;
+
+    margin: 45px;
+}
+
+#send {
+    padding: 10px;
+    width: 30%;
+    margin: 80px;
+}
+
+#send {
+    padding: 10px;
+    width: 30%;
+    margin: 40px;
+}
+
+#send:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+
+}
+
+#contacts h1 {
+    text-align: center;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
